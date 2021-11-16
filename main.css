@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #60A0D8ba, #05602Ccc), url(images/background1.png);
+  height: 100vh;
+}
+
+.navbar {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.navbar_links {
+  list-style: none;
+}
+.navbar_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navbar_links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+button {
+  background-color: white;
+  color: #B2D234;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-right: 30px;
+}
+
+.home {
+  text-decoration: underline;
+}
+
+.logo {
+  margin-right: auto;
+  padding: 20px;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  left: 30%;
+  color: white;
+}
+.message .title {
+  font-size: 126px;
+  font-weight: 500;
+}
+.message .msg {
+  font-size: 54px;
+  font-weight: 400;
+  font-style: italic;
+  transform: rotate(-9deg);
+}
+
+.section1 {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+}
+.section1 .text_section1 {
+  width: 50%;
+  margin-right: auto;
+  padding: 30px;
+}
+.section1 .text_section1 .title_section1 {
+  color: #B2D234;
+  font-size: 46px;
+}
+.section1 .text_section1 p {
+  margin: 20px 0px;
+}
+.section1 .image_section1 {
+  width: 40%;
+  height: 80vh;
+}
+
+/*# sourceMappingURL=main.css.map */
